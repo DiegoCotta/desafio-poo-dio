@@ -4,6 +4,11 @@ public abstract class Conteudo {
 
     protected static final double XP_PADRAO = 10d;
 
+    public Conteudo(String titulo, String descricao) {
+        this.titulo = titulo;
+        this.descricao = descricao;
+    }
+
     private String titulo;
     private String descricao;
 
